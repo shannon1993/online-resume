@@ -1,0 +1,298 @@
+
+* {
+  padding:0;
+  margin:0;
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box;
+}
+
+/*Header Title*/
+.header-top {
+  padding: 2.5% 7% 0.5%;   
+  text-align: center; 
+  background-color: #2f3d48;
+}
+
+.title-name {
+  font-size: 45px;
+  color: #fff;
+}
+
+.title-role {
+  font-size: 22px;
+  color: #02b3e4;
+}
+
+.header-hr {
+  color: #1C262F;
+  background-color: #1C262F;
+  margin: 1% 0;
+  border: 0;
+  height: 1.5px;
+}
+
+/*Contacts*/
+#topContacts,
+#footerContacts {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 8px;
+  list-style-type: none;
+}
+
+.contact-item {
+  font-size: 17px;
+}
+
+.contact-type {
+  padding: 5px;
+  color: #02b3e4;
+}
+
+.contact-text {
+  padding: 5px;
+  font-weight: bold;
+  color: #fff; 
+}
+
+/*Picture and message*/
+.header-middle {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;    
+  padding: 5% 20%; 
+  align-items: center;
+  background-image: url(../images/back.jpeg);
+}
+
+.middle-image {
+  width: 35%;
+}
+
+.biopic {
+  padding: 0;
+  width: 200px;  
+  border-radius: 50%; 
+  border: solid 3px #2f3d48;   
+}
+
+.middle-text {
+  width: 65%;
+}
+
+.welcome-message {
+  background-color: #fff; 
+  border: solid 3px #2f3d48;
+  border-radius: 25px; 
+  padding: 6px;
+}
+
+.message-text {
+  font-size: 18px;  
+  text-align: justify;
+  font-style: italic;
+  color: #4F4F4F;
+  line-height: 26px;
+}
+
+/*Main*/
+.main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 1% 3% 70px;
+}
+
+/*Skills*/
+#skills { 
+}
+
+.skills, 
+.skills1 {
+  font-size: 16px;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  list-style-type: none; 
+}
+
+.skill {
+  color: #4F4F4F;  
+  padding-right: 4px;
+}
+
+/*Sections*/
+.skills-title,
+.projects-title,
+.work-title,
+.education-title {
+  color: #2f3d48;
+}
+
+#skills, 
+#workExperience, 
+#projects, 
+#education, 
+#mapDiv {
+  padding: 14px 0 0;  
+}
+
+.section-title {
+  font-size: 17px;
+  color: #1199c3;
+  text-decoration: none;
+  display: block;
+}
+
+.online-title {
+  padding: 1.5% 0 0; 
+  color: #2f3d48; 
+}
+
+.section-link {
+  color: #1199c3;
+  text-decoration: none;  
+}
+
+img {
+  padding: 10px;
+}
+
+.skills-hr, 
+.projects-hr,
+.work-hr,
+.education-hr {
+  color: #999;
+  background-color: #999;
+  margin: 0;
+  border: 0;
+  height: 2px;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  margin: 12px 10px 0;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.work-description, 
+.project-description {
+  font-size: 15px;
+  color: #4F4F4F;
+  line-height: 17px;
+}
+
+.school-info {
+  color: #4F4F4F; 
+}
+
+/*Map*/
+.map-hr {
+  color: #999;
+  background-color: #999;
+  margin: 0 0 1%;
+  border: 0;
+  height: 2px;
+}
+
+.map-title {
+  color: #2f3d48;
+  padding: 1% 0 0;
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-top: 14px;
+}
+
+#mapDiv { 
+  height: 350px;
+}
+
+/*Footer*/
+.connect-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  line-height: 29px;
+  padding: 10px;
+}
+
+#lets-connect {
+  text-align: center;
+  background-color: #2f3d48;
+}
+
+#footerContacts {
+  list-style-type: none;  
+}
+
+@media only screen and (max-width:1100px) {
+  .header-middle {   
+    padding: 5% 15%; 
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  .header-middle {   
+    padding: 5% 15%; 
+  }
+}
+
+@media only screen and (max-width:1000px) {
+  .header-middle {   
+    padding: 5% 8%; 
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .biopic {
+    width: 150px;   
+    display: block;
+    margin: auto;
+  }
+  
+  .middle-image, 
+  .middle-text {
+    width: 100%;
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .online-title {
+    padding: 15px 0 0; 
+    color: #2f3d48; 
+  }
+}
+
+@media only screen and (max-width: 353px) {
+  .main {
+    padding: 1% 3% 90px;
+  }
+}
+
+
